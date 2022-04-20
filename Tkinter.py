@@ -5,10 +5,7 @@ from PIL import ImageTk,Image
 screen=Tk()
 
 
-# aybil = Label(screen, text='Howdy there aybil!',background='Black',fg='White').grid(row=0,column=0)
-# create=Label(screen, text='WELL OH WELL').grid(row=1,column=0)
-# press=Button(screen, text='CLICKER')
-# screen.geometry('1000x1000')
+
 def move(x,y):
       Label(screen,text='voila').grid(row=x,column=y)
     
