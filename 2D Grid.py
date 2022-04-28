@@ -38,7 +38,7 @@ def play(p, d):
     dist[p[0]][p[1]] = 0
     while not is_empty(queue):
         v= dequeue(queue)
-        for i in range(4):
+        for i in range(8):
             new_X = v[0] + dx[i]
             new_Y = v[1] + dy[i]
             if is_legal_position(new_X, new_Y) and not visited[new_X][new_Y]:
